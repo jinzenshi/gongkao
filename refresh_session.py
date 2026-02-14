@@ -1,13 +1,46 @@
 #!/usr/bin/env python3
 """
 公考雷达登录脚本
-功能：打开Chrome浏览器，扫码登录后自动更新session.json
+功能：打开Chrome浏览器，扫码登录后自动更新session并上传到GitHub
 """
 import asyncio
 import os
 import json
+import subprocess
 from datetime import datetime
 from playwright.async_api import async_playwright
+
+
+def git_commit_and_push():
+    """提交session更新到GitHub"""
+    try:
+        # 添加session.json的更改
+        subprocess.run(['git', 'add', 'session.json'], check=True, capture_output=True)
+
+        # 检查是否有更改需要提交
+        result = subprocess.run(
+            ['git', 'status', '--porcelain'],
+            capture_output=True, text=True, check=True
+        )
+
+        if not result.stdout.strip():
+            print("没有需要提交的更改")
+            return False
+
+        # 提交更改
+        commit_msg = f"Update session: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+        subprocess.run(['git', 'commit', '-m', commit_msg], check=True, capture_output=True)
+
+        # 推送到GitHub
+        subprocess.run(['git', 'push', 'origin', 'main'], check=True, capture_output=True)
+
+        print("✓ 已成功推送到GitHub")
+        return True
+
+    except subprocess.CalledProcessError as e:
+        print(f"Git操作失败: {e}")
+        print(e.stderr.decode() if e.stderr else "")
+        return False
 
 
 async def main():
@@ -85,6 +118,10 @@ async def main():
 
             if "Four Leaf Clover" in content:
                 print("✓ 登录验证成功！")
+
+                # 自动提交并推送到GitHub
+                print("\n正在推送到GitHub...")
+                git_commit_and_push()
             else:
                 print("✗ 警告：登录验证可能失败，请手动检查")
 
