@@ -1,0 +1,107 @@
+{
+  "cookies": [
+    {
+      "name": "acw_sc__v2",
+      "value": "698ee62ad19851a98e43ce11b5efbe7ec70c5ec0",
+      "domain": "www.gongkaoleida.com",
+      "path": "/"
+    },
+    {
+      "name": "Hm_lvt_f721d958b1ffbdd95625a927f9bbe719",
+      "value": "1770972723",
+      "domain": ".gongkaoleida.com",
+      "path": "/"
+    },
+    {
+      "name": "HMACCOUNT",
+      "value": "061D2A950A22228D",
+      "domain": ".gongkaoleida.com",
+      "path": "/"
+    },
+    {
+      "name": "Hm_lvt_a85566772a4d8c7093230e45128ffa8f",
+      "value": "1770972723",
+      "domain": ".gongkaoleida.com",
+      "path": "/"
+    },
+    {
+      "name": "userId",
+      "value": "9252976",
+      "domain": "www.gongkaoleida.com",
+      "path": "/"
+    },
+    {
+      "name": "token",
+      "value": "df9d0058ff00333d0c800b1b724990d711d155ibn41cdgdm9ihq9s5u1cdond5i5dlec1",
+      "domain": "www.gongkaoleida.com",
+      "path": "/"
+    },
+    {
+      "name": "userInfo",
+      "value": "%7B%22phone%22%3A%2213250%2A%2A%2A%2A55%22%2C%22avatar%22%3A%22https%3A%5C%2F%5C%2Fthirdwx.qlogo.cn%5C%2Fmmopen%5C%2Fvi_32%5C%2FcsdkearHwnQUibwcTycHTSjr1INQNaIZxBg98Bbsr3lMdFX9Zjr9VUBQBreoGtInBOYcjibCpicDvHKnwY3t2ZcVw%5C%2F132%22%2C%22nickname%22%3A%22Four+Leaf+Clover%22%7D",
+      "domain": "www.gongkaoleida.com",
+      "path": "/"
+    },
+    {
+      "name": "vipInfo",
+      "value": "%7B%22isVip%22%3A0%2C%22vipGrade%22%3A0%2C%22vipExpire%22%3A0%7D",
+      "domain": "www.gongkaoleida.com",
+      "path": "/"
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "eyJpdiI6IjRua3JHbjltd1hOZG50WHYrYVh6V2c9PSIsInZhbHVlIjoidkIyRzYyM20rYUgwbktjQldtcDg1QnBnS2pTK293Sm1nSWFRSDhaTXhuOFwvanBPalAxY0UyczVLZk4wUk91VnciLCJtYWMiOiJjYzEyYTNhYzE1NjhhZTc0ZDg4MGE2ZmU3OTdkODQ1NmFlNjgyODcxZjExNTE4NDE1NjA1Mzg0Mzg5MGU1ZjYxIn0%3D",
+      "domain": "www.gongkaoleida.com",
+      "path": "/"
+    },
+    {
+      "name": "gkld_session",
+      "value": "eyJpdiI6IjFFeXZEQk5MYTFcL2J2TEluWlFGK1BnPT0iLCJ2YWx1ZSI6IjU3dFwvT0tTS2RjUmtRVVdhNmV5Tk9EdExnaCtSb0dyRTZ2SUdPV1wvalZnQjlSS25wRWs0bll5amFrREh6dlZRaGh4OTFKZ05sQ1lsRFlCNzJCVFdTNEpOWXNaeUZXWUZDU3p6V1pjdVhKWFlCRWdwQXduREJpdFAxODg2OUR1aVgiLCJtYWMiOiIxMzgxNWM5YjMzMWE5YTExZGQ4NTJlZWQ5YzE5MWQzMDI1NDU4YTZjMjAwYTZmM2EzODE1ODRkOWEzZTEzYWVhIn0%3D",
+      "domain": "www.gongkaoleida.com",
+      "path": "/"
+    },
+    {
+      "name": "Hm_lpvt_f721d958b1ffbdd95625a927f9bbe719",
+      "value": "1770972887",
+      "domain": ".gongkaoleida.com",
+      "path": "/"
+    },
+    {
+      "name": "Hm_lpvt_a85566772a4d8c7093230e45128ffa8f",
+      "value": "1770972887",
+      "domain": ".gongkaoleida.com",
+      "path": "/"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.gongkaoleida.com",
+      "localStorage": [
+        {
+          "name": "frameStatus",
+          "value": "collapse"
+        },
+        {
+          "name": "f34c6cea98dd4bac83d4238144ad34cb_u",
+          "value": "e4c93908f0642c2f84f59c71aef552f0"
+        },
+        {
+          "name": "___ds_storage__search_isblock",
+          "value": "1|1770972853682"
+        },
+        {
+          "name": "Hm_lvt_f721d958b1ffbdd95625a927f9bbe719",
+          "value": "1802508886659|1770972723"
+        },
+        {
+          "name": "Hm_lvt_a85566772a4d8c7093230e45128ffa8f",
+          "value": "1802508886665|1770972723"
+        },
+        {
+          "name": "h5uuid",
+          "value": "bcaa6f24-8872-43bb-8529-27d9add8a2e0"
+        }
+      ]
+    }
+  ]
+}
